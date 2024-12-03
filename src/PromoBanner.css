@@ -1,0 +1,50 @@
+p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.banner {
+    color:#f59133;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 0px 10px 0px;
+    background-image: url("images/vPattern-dark-decor.png");
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    line-height: 1.1;
+}
+
+.banner-text {
+    margin: 0px;
+}
+
+.timers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-flow: nowrap;
+    padding: 10px 0px 0px 0px;
+    gap: 10px;
+}
+
+.timer-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65px;
+    color:white;
+}
+
+.timer-element-value {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.timer-element-label {
+    font-size: 13px;
+    font-weight:normal;
+    margin: 0px;
+}
